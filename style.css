@@ -115,3 +115,92 @@ a:hover{
 .hamburger-icon span:last-child{
     transform: none;
 }
+/* SECTION */
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+.section-container{
+    display: flex;
+}
+/* PROFILE SECTION */
+#profile{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    height: 80vh;
+}
+.section-pic-container{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    /* margin: auto 0; */
+    border-radius: 50%;
+    object-fit: cover;
+}
+.section-text{
+    align-self: center;
+    text-align: center;
+}
+.section-text-p{
+    font-weight: 600;
+}
+.section-text-p1{
+    text-align: center;
+}
+.section-text-p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+#social-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;   
+}
+/* ICONS */
+.icon{
+    cursor: pointer;
+    height: 2rem;
+}
+/* BUTTONS */
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.btn{
+    font-weight: 600;
+    transition: all 0.3ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+.btn-color1, .btn-color2{
+    border: rgb(53,53,53) 0.1rem solid;
+}
+.btn-color1:hover, 
+.btn-color2:hover{
+    cursor: pointer;
+}
+.btn-color1, 
+.btn-color2:hover{
+    background: rgb(53,53,53);
+    color: white;
+}
+.btn-color1:hover{
+    background: rgb(0,0,0);
+}
+.btn-color2{
+    background: none;
+}
+.btn-color2:hover{
+    border: rgb(255,255,255) 0.1rem solid;
+}
