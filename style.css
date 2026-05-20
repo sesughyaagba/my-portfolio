@@ -118,11 +118,10 @@ a:hover{
 /* SECTION */
 section{
     padding-top: 4vh;
-    /* min-height: 96vh; */
     margin: 0 10rem;
     box-sizing: border-box;
-    /* min-height: fit-content; */
-    min-height: max(96vh, fit-content);
+    min-height: fit-content;
+    padding-bottom: 0;
 
 }
 .section-container{
@@ -134,7 +133,8 @@ section{
     justify-content: center;
     align-items: center;
     gap: 5rem;
-    height: 70vh;
+    padding-top: 0;
+    min-height: unset;
 }
 .section-pic-container{
     display: flex;
@@ -213,7 +213,6 @@ section{
 }
 .about-containers{
     gap: 2rem;
-    margin-bottom: 2rem;
     margin-bottom: 2rem;
 }
 .about-details-container{
@@ -345,7 +344,7 @@ article .icon{
 /* FOOTER */
 footer{
     min-height: max(26vh, fit-content);
-    margin: 0, 1rem;
+    margin: 0 1rem;
 }
 footer p{
     text-align: center;
