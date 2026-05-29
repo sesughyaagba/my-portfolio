@@ -277,11 +277,11 @@ section{
     flex-wrap: wrap;
     flex-direction: row;
     gap: 2.5rem;
-    justify-content: space-around;
+    justify-content: center;
 }
 article{
     display: flex;
-    justify-content: space-around;
+    align-items: center;
     gap: 0.5rem;
     width: 10rem;
 }
