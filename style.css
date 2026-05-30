@@ -350,3 +350,21 @@ footer p{
     text-align: center;
     padding-bottom: 1rem;
 }
+#backToTopBtn {
+      display: none;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 99;
+      border: none;
+      background-color: #5b3b3b;
+      color: white;
+      cursor: pointer;
+      padding: 12px 12px;
+      border-radius: 8px;
+      font-size: 14px;
+      transition: background-color 0.3s ease;
+    }
+#backToTopBtn:Hover{
+    background-color: rgb(112, 104, 90);
+}
