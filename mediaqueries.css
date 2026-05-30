@@ -94,6 +94,13 @@
     .text-container{
         text-align: justify;
     }
+    #backToTopBtn{
+        bottom: 5px;
+        right: 10px;
+        padding: 6px 12px;
+
+
+    }
 }   
 
 
